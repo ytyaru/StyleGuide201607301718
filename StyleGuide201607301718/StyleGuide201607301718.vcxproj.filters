@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{a22dbc99-8881-4068-81b7-36488df286ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{4b7f1a21-984c-4d1b-8c6b-5a7ff2297423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{11f0a67e-0603-4fe0-ada5-9c130baf1db0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Uuid">
+      <UniqueIdentifier>{d6a8a94c-a2e2-4730-874d-41b04190efd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\WndProc">
+      <UniqueIdentifier>{867a9981-21da-43ad-96b7-97ae262c8ea7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\WndProc">
+      <UniqueIdentifier>{04c9a8de-19f2-4ff0-9502-94df24a43a0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\WndProc\Initialize">
+      <UniqueIdentifier>{bc201266-88c8-478d-844a-854b85324722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\WndProc\Keyboard">
+      <UniqueIdentifier>{3530a928-4c4b-435f-8288-2d71b85f53ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\ytyaru\Library\Uuid\Uuid.cpp">
+      <Filter>Library\Uuid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ytyaru\Framework\WndProc\Window.cpp">
+      <Filter>Framework\WndProc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Program.cpp">
+      <Filter>Main\WndProc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WndProc\Initialize\InitializeWndProc.cpp">
+      <Filter>Main\WndProc\Initialize</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WndProc\Keyboard\KeyboardWndProc.cpp">
+      <Filter>Main\WndProc\Keyboard</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\ytyaru\Library\Uuid\Uuid.h">
+      <Filter>Library\Uuid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ytyaru\Framework\WndProc\Window.h">
+      <Filter>Framework\WndProc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ytyaru\Framework\WndProc\IPartWndProc.h">
+      <Filter>Framework\WndProc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WndProc\Initialize\InitializeWndProc.h">
+      <Filter>Main\WndProc\Initialize</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WndProc\Keyboard\KeyboardWndProc.h">
+      <Filter>Main\WndProc\Keyboard</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
